@@ -363,7 +363,7 @@ section {
     }
 }
  */
- @media only screen and (min-width:600px) and (max-width:805px) {
+ @media only screen and (min-width:600px) and (max-width:900px) {
     header {
         font-size: 10px;
         width: 100%;
@@ -478,3 +478,40 @@ footer span{
         }
         }
         
+
+        @media only screen and (min-width:901px) and (max-width:1090px) {
+            header .logo  , header .navigation{
+                font-size: 20px;
+                margin-left: 1px;
+            }
+            header div img{
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                width: 30px;
+                height: 30px;
+        
+            }
+            .main div h3 img{
+                border: 1px solid #ddd;
+                border-radius: 400px;
+                padding: 5px;
+                width: 400px;
+                height: 400px;
+                position: absolute;
+                right: 10px;
+                top: 80px;
+                
+        
+                }
+            
+            
+    
+    
+            }
+    
+
+
+
+
+
+  
