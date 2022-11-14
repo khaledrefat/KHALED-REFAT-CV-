@@ -83,6 +83,14 @@ section {
     letter-spacing: 12px;
 
 }
+@media (max-width:300px){
+    .info h2{
+        right: 10px;
+        top: 10px;
+        border: 2px #0c6add solid;
+            }
+    }
+
 
 .main img {
     color: #fff;
@@ -97,7 +105,15 @@ section {
     border: 2px #0c6add solid;
     border-radius: 500px;
 }
-
+@media (max-width:300px){
+    .info h3 img{
+        position:absolute;
+        right: 10px;
+        top: 10px;
+        border: 2px #0c6add solid;
+        border-radius: 500px;
+            }
+    }
 
 .main-btn {
     color: #fff;
@@ -173,12 +189,14 @@ section {
 }
 
 
-.info h3{
+.info h3 img{
     color: #3a6cf4;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
+
+
 
 .projects {
     background-color: #000016;
@@ -271,16 +289,13 @@ section {
 .footer-title span {
     color: #3a6cf4;
 }
-.footer .social-icons{
-
-}
 .footer .social-icons a{
     font-size: 1.3em;
     padding: 0 12px 0 0;
     margin-left: 8px;
 }
 
-@media (max-width:1023px){
+/* @media (max-width:1023px){
     header{
         padding: 12px 20px;
     }
@@ -320,7 +335,13 @@ section {
     font-size: 25px;
     color: #1cfc4c;
 }
-
+@media (max-width:300px){
+    .footer .social-icons a i {
+        display:flex;
+        flex-direction: row-reverse;
+        font-size: 5px;
+    }
+}
 @media (max-width:641px){
     body{
         font-size: 12px;
@@ -341,3 +362,119 @@ section {
      
     }
 }
+ */
+ @media only screen and (min-width:600px) and (max-width:805px) {
+    header {
+        font-size: 10px;
+        width: 100%;
+        height: 40px;
+        margin-right: 20px;
+    }
+    header .logo  , header .navigation{
+        font-size: 12px;
+        margin-left: 1px;
+    }
+    header div img{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+
+    }
+    .main div h2 , .main div h2 span{
+        border-radius: 40px;
+        padding: 5px;
+        width: 100px;
+        font-size: 33px;
+
+        }
+
+    .main div h3 img{
+        border: 1px solid #ddd;
+        border-radius: 40px;
+        padding: 5px;
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        right: 10px;
+
+        }
+    .social-icons a i{
+        font-size: 20px;
+        color: #1cfc4c;
+    
+    }
+    footer{
+        font-size: xx-small;
+    }
+    
+    .info a{
+        font-size: 10px;
+    }
+    }
+    
+    @media only screen and (min-width:300px) and (max-width:599px) {
+     
+        header .logo  , header .navigation{
+            font-size: 10px;
+            margin-left: 1px;
+        }
+        header div img{
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            width: 30px;
+            height: 30px;
+    
+        }
+        .main div h2 , .main div h2 span , .main-btn {
+            border-radius: 40px;
+            padding: 5px;
+            width: 100px;
+            font-size: 20px;
+    
+            }
+            .main-btn{            
+                font-size: 10px;
+            }
+        .main div h3 img{
+            border: 1px solid #ddd;
+            border-radius: 40px;
+            padding: 5px;
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            right: 10px;
+            top: 80px;
+            
+    
+            }
+        .social-icons a i{
+            font-size: 20px;
+            color: #1cfc4c;
+        
+        }
+        footer{
+            font-size: xx-small;
+        }
+        
+        .info a{
+            font-size: 10px;
+        }
+footer p{ 
+            font-size: 2px;
+        }
+footer span{ 
+            font-size: 2px;
+        }
+        footer .social-icons i{
+            font-size: 5px;
+        }
+        .project-info span{
+            font-size: 5px;
+        }
+        .project-info a{
+            font-size: 5px;
+
+        }
+        }
+        
